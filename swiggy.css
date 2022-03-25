@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.this-is-row{
+    background-color: #2b1e16;
+}
+
+.this-is-para{
+    color: #e0cbc1;
+}
+
+.text-margin{
+    padding-top: 4px;
+}
+
+#title{
+    animation: title 1.3s infinite linear;
+}
+
+@keyframes title {
+    0%{
+        transform: translateY(17px);
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}

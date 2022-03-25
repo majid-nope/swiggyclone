@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="swiggy.css">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row bg-white d-flex">
+            <!-- leftside  -->
+            <div class="col-6">
+                <!-- again row for left side to add contents -->
+                <div class="row ms-5">
+                    <!-- column for swiggy logo and login/signup button  -->
+                    <div class="col d-flex justify-content-between mt-5">
+                        <img src="img/swiggy-logo.svg" class="mt-3">
+
+                        <div class="login-button d-flex align-items-center mt-2 me-5">
+                            <a class="text-decoration-none text-secondary" href="#"><p class="mt-3 me-4">Login</p></a>
+                            <button class="btn btn-dark " onclick="titleChanger()">Sign up</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- row for changing text -->
+                <div class="row d-flex mt-5 ms-5">
+                    <h2 id="title">Unexpected guests?</h2>
+                    <h4 class="fw-light">Order food from favourite restaurants near you.</h4>
+                </div>
+                <div class="row mt-4 ms-5">
+                    <div class="input-group">
+                        <input type="text" class="ps-3 form-control form-control-lg p-2"
+                            placeholder="Enter your delivery location" aria-label="Recipient's username"
+                            aria-describedby="basic-addon2">
+                        <button class="input-group-text btn text-white btn-lg btn-warning fs-6 fw-bold"
+                            id="basic-addon2">FIND FOOD</button>
+                    </div>
+                </div>
+                <div class="row mt-4 ms-5">
+                    <p class="fs-6">POPULAR CITIES IN INDIA</p>
+                    <h6>Ahmedabad <a class="text-secondary text-decoration-none">Bangalore</a> Chennai <a
+                            class="text-secondary text-decoration-none">Delhi</a> Gurgaon <a
+                            class="text-secondary text-decoration-none">Hyderabad</a> Kolkata <a
+                            class="text-secondary text-decoration-none">Mumbai</a></h6>
+                    <h6>Pune <a class="text-secondary text-decoration-none">& more.</a></h6>
+                </div>
+
+            </div>
+            <!-- right side -->
+            <div class="col">
+                <!-- <div class="container-fluid"> -->
+                <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/Lunch3-new_mkqxdb"
+                    class="img-thumbnail" style="width: 651px; height: 540px; object-fit: cover; border: none;">
+                <!-- </div> -->
+            </div>
+            <!-- next section  -->
+            <div class="container-fluid">
+                <div class="row" style="background-color: #2b1e16;">
+                    <div class="col d-flex justify-content-around">
+                        <div class="img-and-text d-flex flex-column align-items-center mb-5">
+                            <img style="height:auto; width: 110px;"
+                                src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_210,h_398/4x_-_No_min_order_x0bxuf">
+                            <h5 class="mt-4 fw-bold text-white">No Minimum Order</h5>
+                            <P class="fs-6 fw-bold text-secondary ss"">Order in for yourself or for the group, <br>with no restrictions on order value</P>
+                        </div>
+                        <div class=" d-flex flex-column align-items-center mb-5">
+                                <img style="height:auto; width: 110px;"
+                                    src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_224,h_412/4x_Live_order_zzotwy">
+                            <h5 class="mt-4 fw-bold text-white text-margin">Live Order Tracking</h5>
+                            <P class="fs-6 fw-bold text-secondary">Know where your order is at all times, <br>from the
+                                restaurant to your doorstep</P>
+                        </div>
+                        <div class=" d-flex flex-column align-items-center mb-5" style="margin-top: 35px">
+                            <img style="height:auto; width: 110px;"
+                                src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_248,h_376/4x_-_Super_fast_delivery_awv7sn">
+                            <h5 class="mt-4 fw-bold text-white text-margin">Lightning-Fast Delivery</h5>
+                            <P class="fs-6 fw-bold text-secondary">Experience Swiggy's superfast delivery <br>for food
+                                delivered fresh & on time</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- next section -->
+            <div class="container-fluid">
+                <!-- two columns in one row right section and left section -->
+                <div class="row">
+                    <!-- left section -->
+                    <div class="col">
+                        <div class="row mt-5 ms-5">
+                            <h1 class="mt-5">Restaurants in<br> your pocket</h1>
+                        </div>
+                        <div class="row mt-2 ms-5 fs-5 text-secondary">
+                            <p>Order from your favorite restaurants & track<br> on the go, with the all-new Swiggy app.
+                            </p>
+                        </div>
+                        <div class="row mt-5 mb-5 ms-5">
+                            <img style="width:200px; height:54px; cursor: pointer;"
+                                src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_108/play_ip0jfp">
+                            <img style="width:200px; height:54px; cursor: pointer;"
+                                src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_108/iOS_ajgrty">
+                        </div>
+                        <!-- a row just for increasing the margin -->
+                        <div class="row mb-5">
+
+                        </div>
+                    </div>
+                    <!-- right section -->
+                    <div class="col d-flex">
+                        <img style="width: 384px; height: 489px;"
+                            src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_768,h_978/pixel_wbdy4n">
+                        <div class="just-a-div">
+                            <div class="row mt-5"></div>
+                            <div class="row mt-4"></div>
+                            <img style="width: 384px; height: 489px;"
+                                src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_768,h_978/iPhone_wgconp_j0d1fn">
+                        </div>
+                    </div>
+                    <!-- next section -->
+                    <div class="container-fluid">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+       function titleChanger(){
+           var fruits = ['apple', 'mango', 'chakka']
+           var titles = document.getElementById('title')
+           var counter = 0;
+           setInterval(function(){
+            if(counter==fruits.length){
+                counter=0;
+            } else {
+                titles.innerHTML = fruits[counter]
+                console.log(fruits[counter])
+                counter++;
+            }
+           }, 1000)
+           
+       }
+
+
+    </script>
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
